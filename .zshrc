@@ -1,7 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export EDITOR="/usr/bin/nvim"
-export SUDO_EDITOR="/usr/bin/nvim"
+export EDITOR="/opt/local/bin/nvim"
+export SUDO_EDITOR="/opt/local/bin/nvim"
 export SUDO_ASKPASS="/usr/bin/dmenu_pass"
 export PAGER="less"
 export BROWSER="brave"
@@ -31,6 +31,7 @@ alias resetZSHSource="source ~/.zshrc"
 # Some Commands
 alias cl="command clear"
 alias cls="command clear; ls"
+alias ls="ls -G"
 alias csl="curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash"
 alias rf="rm -rf"
 alias s="sudo "
